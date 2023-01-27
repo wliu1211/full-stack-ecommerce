@@ -1,0 +1,17 @@
+#sign-in{
+    height: 40px;
+    font-size: 1.15rem;
+    background-color: rgb(19, 19, 19);
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-top: 30px;
+    box-shadow: 0 0 20px rgb(145, 145, 145);
+}
+
+.error-text,
+.login-error-text{
+    color: red;
+    font-size: 1rem;
+}
+

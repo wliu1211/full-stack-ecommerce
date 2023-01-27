@@ -1,0 +1,65 @@
+.confirmation-container{
+    width: 50%;
+    margin: 70px auto;
+    text-align: center;
+}
+
+.confirmation-container :nth-child(n){
+    display: flex;
+    margin: 30px auto;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+.confirmation-container .fa-check-circle{
+    font-size: 5rem;
+    display: flex;
+    color: rgb(135, 199, 33);
+    justify-content: center;
+}
+
+.confirmation-container .confirmation-header{
+    width: 327.5px;
+    
+}
+
+.confirmation-container .track-order-btn{
+    padding: 10px 80px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    background: black;
+    color: white;
+    border: 1px black solid;
+    border-radius: 5px;
+}
+.confirmation-container .back-to-home-btn{
+    padding: 10px 80px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    background: none;
+    border: 2px black solid;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.confirmation-container .track-order-btn:hover{
+    opacity: 0.75;
+}
+.confirmation-container .back-to-home-btn:hover{
+    opacity: 1.5;
+    
+}
+/* Summary */
+
+
+.confirmation-summary-container, .confirmation-summary-container .card-detail-container h5{
+    margin: 15px 20px;
+}
+
+.card-detail-container{
+    display: flex;
+    align-items: center;
+}
+.card-detail-container img{
+    width: 70px;
+}

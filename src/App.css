@@ -1,0 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+img {
+  width: 100%;
+  object-fit: cover;
+  max-width: 100%;
+  vertical-align: middle;
+  border-style: none;
+}

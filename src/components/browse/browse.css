@@ -1,0 +1,202 @@
+.search-container, .browse-header-container, .browse-header-container >div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.browse-header-container{
+    height: 75px;
+    width: 100%;
+    font-size: 1.15rem;
+    
+}
+.browse-header-container i{
+    pointer-events: none;
+}
+.browse-header-container .search-container{
+    margin: 0 10px;
+}
+
+.browse-header-container .search-container input{
+    padding: 10px;
+    height: 50px;
+    width: 750px;
+    border: 1px solid black;
+    margin: 0 30px;
+    border-radius: 5px;
+    font-size: 1.15rem;
+}
+.browse-header-container .search-container .search-btn{
+    font-size: 1.75rem;
+    padding: 8px;
+    background-color: rgb(82,82,82);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.browse-header-container .category-container{
+    margin: auto;
+    position: relative;
+}
+
+.browse-header-container .category-container button, .browse-header-container .sort-container button{
+    font-size: 1.25rem;
+    margin: 0 20px;
+    height: 50px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5px;
+    background-color: rgb(82,82,82);
+    color: white;
+    border-radius: 5px 5px 0 0;
+    border: none;
+    cursor: pointer;
+}
+
+
+.browse-header-container .sort-container{
+    margin: 0 100px 0 0;
+    position: relative;
+    
+}
+.browse-header-container .category-dropdown.search-dropdown{
+    left: 98px;
+
+}
+.browse-header-container .search-dropdown{
+    position: absolute;
+    top: 50px;
+    left: 59px;
+    width: 150px;
+    border: 1px solid black;
+    border-top: none;
+    border-radius: 0 0 5px 5px;
+    z-index: 100;
+    background-color: white;
+}
+.browse-header-container .search-dropdown p{
+    padding: 2.5px 5px;
+    cursor: pointer;
+    border-top: 1px solid white;
+}
+.browse-header-container .search-dropdown p:hover{
+    background-color: rgb(82,82,82);
+    color: white;
+}
+
+
+
+.card-container{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    height: 636px;
+}
+
+.card-container .card{
+    border: 1px solid black;
+    box-shadow: 0 0 5px grey;
+    padding: 10px;
+    border-radius: 5px;
+    width: 300px;
+    margin: 20px 2.5rem;
+}
+.card .card-title{
+    text-align: center;
+    margin-bottom: 15px;
+    
+}
+.card .img-wrapper{
+    max-width: fit-content;
+    margin: 0 auto;
+}
+.card .img-wrapper img{
+    max-height: 250px;
+    cursor: pointer;
+}
+
+.card .price{
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+.card .price-number{
+    font-size: 1.5rem;
+}
+
+
+.card .size-primary-container, .card .size-primary-container .size-secondary-container, .card .size-primary-container .size-secondary-container .size-list{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 1.15rem;
+}
+.card .size-primary-container .size-secondary-container {
+    display: flex;
+    margin: 5px 0 0 10px;
+}
+
+.card .size-primary-container .size-secondary-container .size-selected{
+    border: none;
+    width: 30px;
+    height: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(82,82,82);
+    color: white;
+}
+.card .size-primary-container .size-secondary-container .size-list{
+    border: 1px solid black;
+    border-left: none;
+}
+.card .size-primary-container .size-secondary-container .size-list p{
+    padding: 1.5px 5px;
+    cursor: pointer;
+    border-left: 1px solid white;
+}
+.card .size-primary-container .size-secondary-container .size-list p:hover{
+    background-color: rgb(82,82,82);
+    color: white;
+}
+/* Quantity */
+.card .quantity-container{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+.card .quantity-switcher{
+    display: flex;
+    margin: 0 10px 0 5px;
+}
+.card .quantity-switcher p {
+    font-size: 1.5rem;
+}
+.card .quantity-switcher button{
+    margin: 0 5px; 
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    background-color: rgb(82,82,82);
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+}
+.card .quantity-switcher button:hover{
+    opacity: 0.85;
+}
+.card-to-cart-btn{
+    width: 100%;
+    height: 3rem;
+    margin-top: 10px;
+    font-size: 1.15rem;
+    color: white;
+    border: none;
+    background-color: rgb(82,82,82);
+    cursor: pointer;
+}

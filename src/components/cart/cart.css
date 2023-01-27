@@ -1,0 +1,70 @@
+.cart-table-container{
+    height: 62.5vh;
+    overflow-y: scroll;
+}
+.cart-table{
+    width: 100%;
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.cart-table-row{
+    font-size: 1.3rem;
+}
+
+.cart-table-row .cart-quant-switch-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cart-table-row .cart-quant-switch-btn .quantity-switch-btn{
+    width: 20px;
+    height: 20px;
+    margin: 0 10px;
+    background-color: rgb(82,82,82);
+    color: white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.cart-table-row .cart-quant-switch-btn .quantity-switch-btn i{
+    pointer-events: none;
+}
+.cart-table-row .cart-quant-switch-btn .quantity-switch-btn:hover{
+    opacity: 0.8;
+}
+.product-data{
+    padding: 20px;
+    width: 40%;
+    text-align: center;
+}
+
+.product-data .cart-img-wrapper{
+    text-align: center;
+    margin: 5px auto;
+    max-width: 10rem;
+}
+.product-data .cart-img-wrapper img{
+    max-height: 250px;
+    padding-bottom: 8px;
+    /* object-fit: cover; */
+}
+.back-to-browse-btn{
+    font-size: 2rem;
+    cursor: pointer;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+.back-to-browse-btn span{
+    font-size: 1.5rem;
+    margin-left: 10px;
+
+}
+
+
+.empty-cart-text{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}

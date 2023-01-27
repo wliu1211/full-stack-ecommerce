@@ -1,0 +1,99 @@
+.modal-outter-container{
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    border-radius: 5px;
+    cursor: pointer;
+
+    
+}
+.modal-outter-container .card-modal-section{
+    z-index: 100;
+    border-radius: 5px;
+    width: 75%;
+    background-color: white;
+    position: absolute;
+    opacity: 1;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    cursor: default;
+    height: 650px;
+
+    
+    
+}
+.card-modal-section .modal-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-self: center;
+
+}
+
+
+.card-modal-section .modal-body{
+    display: flex;
+    justify-content: center;
+}
+.card-modal-section .modal-body .modal-left-container{
+    margin: 0 70px;
+}
+.card-modal-section .modal-body .modal-left-container .modal-img-container {
+    margin: 20px 0;
+    height: 400px;
+    width: 400px;
+}
+.card-modal-section .modal-body .modal-left-container .modal-img-container img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+.modal-item-description{
+    width: 350px;
+}
+.card-modal-section .modal-body .modal-right-container{
+    margin: 30px 0;
+
+}
+.card-modal-section .modal-body .modal-right-container .modal-item-container{
+    width: 275px;
+    display: flex;
+    font-size: 1.25rem;
+    margin: 20px 0;
+}
+.modal-item-container .modal-quantity-switcher{
+    display: flex;
+}
+.modal-item-container .modal-quantity-switcher button{
+    margin: 0 5px; 
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    background-color: rgb(82,82,82);
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+}
+.modal-item-container .modal-quantity-switcher p{
+    font-size: 1.5rem;
+}
+.card-modal-section .modal-body .modal-right-container .modal-label-container{
+    width: 125px;
+}
+.card-modal-section .modal-add-to-cart-btn{
+    width: 100%;
+    height: 3rem;
+    margin-top: 10px;
+    font-size: 1.15rem;
+    color: white;
+    border: none;
+    background-color: rgb(82,82,82);
+    cursor: pointer;
+}
+.card-modal-section .modal-add-to-cart-btn:hover{
+    opacity: 0.8;
+}

@@ -1,0 +1,162 @@
+.shipping-section {
+    padding: 0 20px;
+}
+.shipping-section .form-container{
+    display: flex;
+    justify-content: space-between;
+}
+.shipping-section .shipping-form {
+    width: 40%;
+}
+.shipping-section .shipping-method{
+    width: 50%;
+}
+.shipping-form h2,
+.shipping-method h2{
+    text-align: center;
+}
+.shipping-section .shipping-form label{
+    width: 50px;
+}
+.shipping-section input{
+    width: 80%;
+    height: 40px;
+    padding: 10px;
+    font-size: 1.15rem;
+    border: 1px solid black;
+}
+.shipping-section input:focus{
+    outline: none;
+}
+.shipping-section form > div,
+.shipping-section .shipping-location > div {
+    position: relative;
+}
+.shipping-section form > div{
+    margin: 25px 0;
+}
+
+.shipping-section .label-spacer{
+    width: 100px;
+    margin-right: 10px;
+}
+
+
+.shipping-location,
+.shipping-cell,
+.shipping-tel{
+    display: flex;
+}
+.shipping-location {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.country-name,
+.state-name {
+    cursor: pointer;
+}
+.country-name:hover,
+.state-name:hover {
+    background-color: black;
+    color: white;
+}
+
+.shipping-section .zip-code{
+    width: 150px;
+}
+
+.shipping-section .country-or-state-btn,
+.shipping-section .mid-input{
+    width: 150px;
+    height: 40px;
+}
+
+.shipping-section .country-or-state-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid black;
+    margin: 0 20px;
+    
+}
+.shipping-section .country-or-state-btn p,
+.shipping-section .country-or-state-btn i{
+    pointer-events: none;
+}
+.shipping-section .mid-input.state,
+.shipping-section .mid-input.country-code,
+.shipping-section .mid-input.city{
+    margin: 20px 0 0;
+}
+.shipping-section .mid-input.state{
+    margin: 20px 20px 0 ;
+}
+.shipping-section .country-or-state-btn{
+    margin: 0 20px;
+}
+.countries-outer-container,
+.states-outer-container{
+    height: 150px;
+    width: 250px;
+    overflow: hidden;
+    position: absolute;
+    background-color: white;
+    display: none;
+    position: absolute;
+    bottom: -150px;
+    left: 20px;
+    z-index: 10;
+}
+.countries-outer-container p,
+.states-outer-container p{
+    padding: 3px 10px;
+
+}
+.countries-container,
+.states-container{
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+    box-sizing: content-box;
+    padding-right: 17px;
+}
+.plusOne{
+    position: absolute;
+    border: 1px solid black;
+    /* border-left: none; */
+    height: 40px;
+    width: 60px;
+    left: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.shipping-section .area-num{
+    width: 150px;
+    margin-right: 20px;
+    padding-left: 70px;
+}
+.shipping-section .phone-num{
+    width: 45%;
+}
+
+
+/* Shipping method */
+.shipping-method label{
+    display: flex;
+    margin: 30px 0 0 110px;
+}
+
+
+#standard,
+#express{
+    width: 50px;
+    height: 20px;
+}

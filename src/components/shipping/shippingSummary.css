@@ -1,0 +1,19 @@
+.summary-item-list-container{
+    width: 100%;
+    height: 200px;
+    overflow-y: scroll;
+}
+
+.shipping-summary-list {
+    padding: 10px;
+    border-bottom: 1px solid black;
+    display: flex;
+}
+.shipping-summary-list img {
+    width: 120px;
+
+}
+.shipping-summary-list li {
+    padding: 3px 0;
+    list-style: none;
+}
